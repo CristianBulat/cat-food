@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col md:flex-row justify-center items-center w-full md:justify-normal md:mt-0 pb-4 mb-2 md:pb-28 md:mb-10 border-b-[1px] md:border-b-2 border-mustard">
         <div class="w-full">
-            <img src="../assets/images/Mask-group-2.png" class="w-full" />
+            <img src="@/assets/images/Mask-group-2.png" class="w-full" />
         </div>
         <div class="w-full">
             <div class="ml-0 md:ml-28 ">

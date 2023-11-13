@@ -1,11 +1,11 @@
 <script setup lang="ts">
   import HomePageHeader from "@/components/HomePageHeader.vue"
-  import HomeIntroduction from "../components/HomeIntroduction.vue"
-  import ShopScroll from "../components/ShopScroll.vue"
-  import MiddleSearchBar from "../components/MiddleSearchBar.vue"
-  import Abonaments from "../components/Abonaments.vue"
-  import SubscriptionInfo from "../components/SubscriptionInfo.vue"
-  import SubscriptionToFood from "../components/SubscriptionToFood.vue"
+  import HomeIntroduction from "@/components/HomeIntroduction.vue"
+  import ShopScroll from "@/components/ShopScroll.vue"
+  import MiddleSearchBar from "@/components/MiddleSearchBar.vue"
+  import Abonaments from "@/components/Abonaments.vue"
+  import SubscriptionInfo from "@/components/SubscriptionInfo.vue"
+  import SubscriptionToFood from "@/components/SubscriptionToFood.vue"
   import FooterNav from "@/components/FooterNav.vue"
 </script>
 

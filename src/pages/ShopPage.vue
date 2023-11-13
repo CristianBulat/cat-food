@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import HeaderNav from '@/components/HeaderNav.vue';
-    import ShopIntroduction from '../components/ShopIntroduction.vue';
-    import ShopFilterButtons from '../components/ShopFilterButtons.vue';
+    import ShopIntroduction from '@/components/ShopIntroduction.vue';
+    import ShopFilterButtons from '@/components/ShopFilterButtons.vue';
     import ShopProductView from '@/components/ShopProductView.vue';
     import CustomButton from '@/components/CustomButton.vue';
     import FooterNav from '@/components/FooterNav.vue';

@@ -12,7 +12,7 @@ import TextContent from "./TextContent.vue"
             <CustomButton class="w-[278px] md:w-[280px] h-[43px] md:h-[78px]" />
         </div>
         <div class=" justify-end">
-            <img src="../assets/images/Mask-group.png" class="w-full" />
+            <img src="@/assets/images/Mask-group.png" class="w-full" />
         </div>
     </div>
 </template>

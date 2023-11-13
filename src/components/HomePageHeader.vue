@@ -1,7 +1,7 @@
 <script setup lang="ts">
-  import Logo from "../components/Logo.vue"
-  import SignInButton from "../components/SignInButton.vue"
-  import SearchBar from "../components/SearchBar.vue"
+  import Logo from "@/components/Logo.vue"
+  import SignInButton from "@/components/SignInButton.vue"
+  import SearchBar from "@/components/SearchBar.vue"
 </script>
 
 <template>

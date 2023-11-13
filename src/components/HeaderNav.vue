@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import Logo from './Logo.vue';
+import MenuIcon from './icons/MenuIcon.vue';
 
 const menuOpened = ref(false)
 
@@ -20,8 +21,8 @@ function mobileMenu() {
             <button type="submit" class="font-K2D font-normal text-[24px]">SIGN IN</button>
         </div>
         <div class="topnav md:hidden">
-            <button @click="mobileMenu" >
-                <img src="../assets/images/mobile-menu-icon.svg">
+            <button @click="mobileMenu">
+                <MenuIcon/>
             </button>
         </div>
     </div>

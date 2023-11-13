@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import { ref } from 'vue';
 import ProductScroll from './ProductScroll.vue';
+import ArrowIcon from './icons/ArrowIcon.vue';
 
     const scrollContainer = ref<HTMLDivElement | null>(null)
 
@@ -30,7 +31,7 @@ import ProductScroll from './ProductScroll.vue';
 
 <template>
 <div class="flex justify-between w-[100%]">
-    <img src="../assets/images/Vector 5.svg" @click="scrollLeft" class="w-3 md:w-5"/>
+    <ArrowIcon @click="scrollLeft" class="w-3 md:w-5"/>
     <div ref="scrollContainer" class=" w-[140px] md:w-[1250px] grid grid-flow-col gap-6 scrollable">
         <ProductScroll />
         <ProductScroll />
@@ -48,7 +49,7 @@ import ProductScroll from './ProductScroll.vue';
         <ProductScroll />
         <ProductScroll />
     </div>
-    <img src="../assets/images/Vector 5.svg" @click="scrollRight" class="rotate-180 w-3 md:w-5"/>
+    <ArrowIcon @click="scrollRight" class="rotate-180 w-3 md:w-5"/>
 </div>
 </template>
 
