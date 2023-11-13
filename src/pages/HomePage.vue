@@ -1,6 +1,6 @@
 <script setup lang="ts">
   import HomePageHeader from "@/components/HomePageHeader.vue"
-  import Introduction from "../components/Introduction.vue"
+  import HomeIntroduction from "../components/HomeIntroduction.vue"
   import ShopScroll from "../components/ShopScroll.vue"
   import MiddleSearchBar from "../components/MiddleSearchBar.vue"
   import Abonaments from "../components/Abonaments.vue"
@@ -15,7 +15,7 @@
   </header>
   <section >
     <div>
-      <Introduction class="px-[5%]"/>
+      <HomeIntroduction class="px-[5%]"/>
     </div>
     <div>
       <ShopScroll class="px-[5%]"/>

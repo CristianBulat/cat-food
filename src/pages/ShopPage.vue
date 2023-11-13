@@ -15,7 +15,7 @@
         <section  class="w-full px-[5%] flex flex-col justify-center">
             <ShopIntroduction />
             <ShopFilterButtons />
-            <div class="grid grid-cols-4 gap-4">
+            <div class="grid grid-cols-4 gap-4 pb-[60px]">
                 <ShopProductView />
                 <ShopProductView />
                 <ShopProductView />
@@ -28,7 +28,9 @@
                 <ShopProductView />
                 <ShopProductView />
                 <ShopProductView />
-                <CustomButton class="w-[290px] h-[54px] border-2"/>
+            </div>
+            <div class="flex justify-center pb-[120px]">
+                <CustomButton class="md:w-[290px] h-[54px] border-2"/>
             </div>
         </section>
         <footer>

@@ -9,7 +9,7 @@ import TextContent from "./TextContent.vue"
             <p class=" font-bold text-[113.68px] mr-[-520px]">Your <span class="text-mustard">Pet</span>, Our  <span class="text-white">Passion</span></p>
             <TextContent class="text-2.5xl font-light my-12"/>
             <TextContent class="text-2.5xl font-light my-12"/>
-            <CustomButton class="md:w-[280px] h-[78px]" />
+            <CustomButton class="w-[278px] md:w-[280px] h-[43px] md:h-[78px]" />
         </div>
         <div class=" justify-end">
             <img src="../assets/images/Mask-group.png" class="w-full" />
