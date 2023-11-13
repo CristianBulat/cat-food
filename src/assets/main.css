@@ -1,0 +1,25 @@
+@import './base.css';
+
+#app {
+  padding: 0;
+  width: 100%;
+
+  font-weight: normal;
+}
+
+html {
+  background-color: #D9D9D9;
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+  }
+}
